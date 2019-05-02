@@ -48,6 +48,7 @@ namespace ElevenNote.Services
                                 {
                                     NoteId = e.NoteId,
                                     Title = e.Title,
+                                    IsStarred = e.IsStarred,
                                     CreatedUtc = e.CreatedUtc
                                 }
                         );
@@ -87,23 +88,24 @@ namespace ElevenNote.Services
                 entity.ModifiedUtc = DateTimeOffset.UtcNow;
                 return ctx.SaveChanges() == 1;
             }
-            public ActionResult Edit(int id)
+        }
+        public bool DeleteNote(int noteId)
+        {
+            using (var ctx = new ApplicationDbContext())
             {
-                var service = CreateNoteService();
-                var detail = service.GetNoteById(id);
-                var model =
-                    new NoteEdit
-                    {
-                        NoteId = detail.NoteId,
-                        Title = detail.Title,
-                        Content = detail.Content
-                    };
-                return View(model);
+                var entity =
+                    ctx
+                        .Notes
+                        .Single(e => e.NoteId == noteId && e.OwnerId == _userId);
+
+                ctx.Notes.Remove(entity);
+
+                return ctx.SaveChanges() == 1;
             }
         }
     }
- }
-    
+}
+
 
 
 

@@ -112,3 +112,6 @@ C:\Users\deeln\source\repos\ElevenNote\ElevenNote.WebMVC\bin\ElevenNote.Models.p
 C:\Users\deeln\source\repos\ElevenNote\ElevenNote.WebMVC\bin\ElevenNote.Models.dll.config
 C:\Users\deeln\source\repos\ElevenNote\ElevenNote.WebMVC\bin\ElevenNote.Services.pdb
 C:\Users\deeln\source\repos\ElevenNote\ElevenNote.WebMVC\bin\ElevenNote.Services.dll.config
+C:\Users\deeln\source\repos\ElevenNote\ElevenNote.WebMVC\obj\Debug\ElevenNote.WebMVC.Migrations.InitialCreate.resources
+C:\Users\deeln\source\repos\ElevenNote\ElevenNote.WebMVC\obj\Debug\ElevenNote.WebMVC.csproj.GenerateResource.cache
+C:\Users\deeln\source\repos\ElevenNote\ElevenNote.WebMVC\obj\Debug\ElevenNote.WebMVC.Migrations.staranoteproperties.resources

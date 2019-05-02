@@ -95,20 +95,7 @@ namespace ElevenNote.WebMVC.Controllers
             ModelState.AddModelError("", "Your note could not be updated.");
             return View(model);
         }
-        public bool DeleteNote(int noteId)
-        {
-            using (var ctx = new ApplicationDbContext())
-            {
-                var entity =
-                    ctx
-                        .Notes
-                        .Single(e => e.NoteId == noteId && e.OwnerId == _userId);
-
-                ctx.Notes.Remove(entity);
-
-                return ctx.SaveChanges() == 1;
-            }
-        }
+        
         public ActionResult Delete(int id)
         {
             var svc = CreateNoteService();

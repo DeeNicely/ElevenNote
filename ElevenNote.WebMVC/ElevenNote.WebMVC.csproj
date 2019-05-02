@@ -195,6 +195,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201905011525414_InitialCreate.cs" />
+    <Compile Include="Migrations\201905011525414_InitialCreate.Designer.cs">
+      <DependentUpon>201905011525414_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905021730569_star a note properties.cs" />
+    <Compile Include="Migrations\201905021730569_star a note properties.Designer.cs">
+      <DependentUpon>201905021730569_star a note properties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -321,6 +330,7 @@
     <Content Include="Views\Note\Edit.cshtml" />
     <Content Include="Views\Note\Delete.cshtml" />
     <Content Include="Views\Shared\DisplayTemplates\DateTimeOffset.cshtml" />
+    <Content Include="Views\Shared\DisplayTemplates\Starred.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -351,6 +361,14 @@
       <Project>{48393953-d52d-4799-94e0-e300e835ec0c}</Project>
       <Name>ElevenNote.Services</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201905011525414_InitialCreate.resx">
+      <DependentUpon>201905011525414_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905021730569_star a note properties.resx">
+      <DependentUpon>201905021730569_star a note properties.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
