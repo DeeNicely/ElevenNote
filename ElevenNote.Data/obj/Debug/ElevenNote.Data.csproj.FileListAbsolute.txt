@@ -14,3 +14,11 @@ C:\Users\deeln\source\repos\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data
 C:\Users\deeln\source\repos\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.csproj.CopyComplete
 C:\Users\deeln\source\repos\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.dll
 C:\Users\deeln\source\repos\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.pdb
+C:\Users\deeln\source\repos\ElevenNote\ElevenNote.Data\bin\Debug\Newtonsoft.Json.dll
+C:\Users\deeln\source\repos\ElevenNote\ElevenNote.Data\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\deeln\source\repos\ElevenNote\ElevenNote.Data\bin\Debug\System.Web.Http.dll
+C:\Users\deeln\source\repos\ElevenNote\ElevenNote.Data\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\deeln\source\repos\ElevenNote\ElevenNote.Data\bin\Debug\Newtonsoft.Json.xml
+C:\Users\deeln\source\repos\ElevenNote\ElevenNote.Data\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\deeln\source\repos\ElevenNote\ElevenNote.Data\bin\Debug\System.Web.Http.xml
+C:\Users\deeln\source\repos\ElevenNote\ElevenNote.Data\bin\Debug\System.Web.Http.WebHost.xml

@@ -115,3 +115,9 @@ C:\Users\deeln\source\repos\ElevenNote\ElevenNote.WebMVC\bin\ElevenNote.Services
 C:\Users\deeln\source\repos\ElevenNote\ElevenNote.WebMVC\obj\Debug\ElevenNote.WebMVC.Migrations.InitialCreate.resources
 C:\Users\deeln\source\repos\ElevenNote\ElevenNote.WebMVC\obj\Debug\ElevenNote.WebMVC.csproj.GenerateResource.cache
 C:\Users\deeln\source\repos\ElevenNote\ElevenNote.WebMVC\obj\Debug\ElevenNote.WebMVC.Migrations.staranoteproperties.resources
+C:\Users\deeln\source\repos\ElevenNote\ElevenNote.WebMVC\bin\System.Net.Http.Formatting.dll
+C:\Users\deeln\source\repos\ElevenNote\ElevenNote.WebMVC\bin\System.Web.Http.dll
+C:\Users\deeln\source\repos\ElevenNote\ElevenNote.WebMVC\bin\System.Web.Http.WebHost.dll
+C:\Users\deeln\source\repos\ElevenNote\ElevenNote.WebMVC\bin\System.Net.Http.Formatting.xml
+C:\Users\deeln\source\repos\ElevenNote\ElevenNote.WebMVC\bin\System.Web.Http.xml
+C:\Users\deeln\source\repos\ElevenNote\ElevenNote.WebMVC\bin\System.Web.Http.WebHost.xml
