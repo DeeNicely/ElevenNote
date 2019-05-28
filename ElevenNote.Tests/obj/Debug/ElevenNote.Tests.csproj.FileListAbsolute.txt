@@ -21,3 +21,11 @@ C:\Users\deeln\source\repos\ElevenNote\ElevenNote.Tests\obj\Debug\ElevenNote.Tes
 C:\Users\deeln\source\repos\ElevenNote\ElevenNote.Tests\obj\Debug\ElevenNote.Tests.csproj.CopyComplete
 C:\Users\deeln\source\repos\ElevenNote\ElevenNote.Tests\obj\Debug\ElevenNote.Tests.dll
 C:\Users\deeln\source\repos\ElevenNote\ElevenNote.Tests\obj\Debug\ElevenNote.Tests.pdb
+C:\Users\deeln\source\repos\ElevenNote\ElevenNote.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\deeln\source\repos\ElevenNote\ElevenNote.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\deeln\source\repos\ElevenNote\ElevenNote.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\deeln\source\repos\ElevenNote\ElevenNote.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\deeln\source\repos\ElevenNote\ElevenNote.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\deeln\source\repos\ElevenNote\ElevenNote.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\deeln\source\repos\ElevenNote\ElevenNote.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\deeln\source\repos\ElevenNote\ElevenNote.Tests\bin\Debug\System.Web.Http.WebHost.xml

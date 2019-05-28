@@ -5,15 +5,17 @@ VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevenNote.WebMVC", "ElevenNote.WebMVC\ElevenNote.WebMVC.csproj", "{EF356A72-A65D-46E0-A85A-84EA109417AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevenNote.Data", "..\ElevenNote\ElevenNote.Data\ElevenNote.Data.csproj", "{F0A70515-D802-45E8-AEC9-640EB1DC4DF9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevenNote.Data", "ElevenNote.Data\ElevenNote.Data.csproj", "{F0A70515-D802-45E8-AEC9-640EB1DC4DF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevenNote.Models", "..\ElevenNote\ElevenNote.Models\ElevenNote.Models.csproj", "{689F1759-F524-49DE-9685-C8A04151E1DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevenNote.Models", "ElevenNote.Models\ElevenNote.Models.csproj", "{689F1759-F524-49DE-9685-C8A04151E1DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevenNote.Contracts", "..\ElevenNote\ElevenNote.Contracts\ElevenNote.Contracts.csproj", "{69CFE3CC-6370-4D21-B9B8-203EDB8BEB8F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevenNote.Contracts", "ElevenNote.Contracts\ElevenNote.Contracts.csproj", "{69CFE3CC-6370-4D21-B9B8-203EDB8BEB8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevenNote.Services", "..\ElevenNote\ElevenNote.Services\ElevenNote.Services.csproj", "{48393953-D52D-4799-94E0-E300E835EC0C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevenNote.Services", "ElevenNote.Services\ElevenNote.Services.csproj", "{48393953-D52D-4799-94E0-E300E835EC0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevenNote.Tests", "..\ElevenNote\ElevenNote.Tests\ElevenNote.Tests.csproj", "{E2DB642A-3E1D-4EEA-A70B-F8B5B5949FE4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevenNote.Tests", "ElevenNote.Tests\ElevenNote.Tests.csproj", "{E2DB642A-3E1D-4EEA-A70B-F8B5B5949FE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevenNote.WebApi", "ElevenNote.WebApi\ElevenNote.WebApi.csproj", "{5C5A1BF6-929A-4976-976B-9997A9D26A1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{E2DB642A-3E1D-4EEA-A70B-F8B5B5949FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2DB642A-3E1D-4EEA-A70B-F8B5B5949FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2DB642A-3E1D-4EEA-A70B-F8B5B5949FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C5A1BF6-929A-4976-976B-9997A9D26A1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C5A1BF6-929A-4976-976B-9997A9D26A1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C5A1BF6-929A-4976-976B-9997A9D26A1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C5A1BF6-929A-4976-976B-9997A9D26A1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

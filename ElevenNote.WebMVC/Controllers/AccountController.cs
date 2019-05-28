@@ -13,6 +13,11 @@ using ElevenNote.Data;
 
 namespace ElevenNote.WebMVC.Controllers
 {
+    //Adding SSL to an app
+    #if !DEBUG
+     [RequireHttps]
+
+    #endif
     [Authorize]
     public class AccountController : Controller
     {
@@ -64,6 +69,7 @@ namespace ElevenNote.WebMVC.Controllers
 
         //
         // POST: /Account/Login
+
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]

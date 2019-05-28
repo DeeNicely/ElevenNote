@@ -66,9 +66,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\ElevenNote.WebMVC\Models\IdentityModels.cs">
-      <Link>IdentityModels.cs</Link>
-    </Compile>
+    <Compile Include="IdentityModel.cs" />
     <Compile Include="Note.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
